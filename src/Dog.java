@@ -3,7 +3,7 @@ public class Dog
     private String name, breed;
     private int age;
     private double weight;
-    private static int dogCount;
+    private static int dogCount; //a static variable
 
 
     public Dog()
