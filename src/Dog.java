@@ -5,7 +5,6 @@ public class Dog
     private double weight;
     private static int dogCount; //a static variable
 
-
     public Dog()
     {
         name = null;
@@ -24,7 +23,7 @@ public class Dog
         dogCount++;
     } //full constructor
 
-
+    
     //getters
     public String getName()
     {
@@ -49,7 +48,7 @@ public class Dog
     public int getDogCount()
     {
         return dogCount;
-    }
+    } //end getDogCount getter
 
 
     //setters
@@ -85,6 +84,7 @@ public class Dog
         return output;
     } //end brain method to convert to kg
 
+    
     public int compareTo(Dog someDog)
     {
         if(this.age < someDog.age)
