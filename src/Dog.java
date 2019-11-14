@@ -112,7 +112,4 @@ public class Dog
 
         return output;
     } //end toString
-
-
-
 } // end class Dog
